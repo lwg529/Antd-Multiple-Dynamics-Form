@@ -1,0 +1,54 @@
+
+.monthContainer{
+  background:rgba(246,247,251,1);
+  margin-bottom: 22px;
+  border: 1px solid rgba(218,223,227,1);
+  .monthItemWrapper{
+    padding: 0 16px 0 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .monthItemContainer{
+      width: 100%;
+    }
+    .ant-form-item{
+      margin-bottom: 0;
+    }
+    .itemSelect{
+      position: relative;
+      display: inline-block;
+      margin-right: 12px;
+    }
+    .itemDeleteContainer{
+      position: relative;
+      display: inline-block;
+      height: 58px;
+      padding: 10px 12px;
+      .itemDelete{
+        display: inline-block;
+        font-size: 16px;
+        color: #F45758;
+      }
+    }
+    
+  }
+  .monthContentWrapper{
+    max-height: 520px;
+    overflow: auto;
+    padding-bottom: 16px;
+  }
+  .monthActions{
+    height: 60px;
+    // background:rgba(255,255,255,1);
+    border-radius:4px 4px 0px 0px;
+    border-bottom:1px solid rgba(218,223,227,1);
+    padding: 8px 16px 16px 40px;
+    margin-bottom: 4px;
+    .actionButton{
+      font-size: 12px;
+      margin-right: 8px;
+      height: 30px;
+    }
+  }
+}
